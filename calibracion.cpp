@@ -71,19 +71,22 @@ int main( void ){
 							i++;
 				int ii=1;
 				for(int y = 40; y<440; y=y+20){
-						cout  << "Valor de intentos22" 
+						cout  << "Valor de intentos22: " 
 							<< ii << endl;
 							ii++;
+						circle(	ventana_calibracion,
+								Point(x,y),
+								5,
+								Scalar(0,255,0),
+								CV_FILLED,
+								8,
+								0);
+
+
 				}
 				
 			}
-			circle(	ventana_calibracion,
-							Point(100,100),
-							15,
-							Scalar(0,255,0),
-							CV_FILLED,
-							8,
-							0);
+			
 
 
 		
