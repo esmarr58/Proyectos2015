@@ -1,0 +1,13 @@
+
+**** Objetivo particular 1.
+		 El programa, sera capaz de "dibujar"
+		 en un pintarron blanco una cuadricula cuya escala pueda ser modificada por el profesor.
+
+**** Objetivo particular 2.
+			El programa permitira reconocer mediante la camara una serie de comandos previamente programados. Es decir que la manera de introducir los comandos sera dise;ando una aplicacion de vision artificial que detecte el punto de apuntador laser.
+
+**** Objetivo particular 3.
+	  El programa reconocera al menos 4 colores dibujados mediante marcarcador para pintarron blanco.
+
+**** Objetivo particular 4.
+		DIse;ar la aplicaci[on para detectar la formacion de triangulos con cualquiera de los colores del objetivo 3.
