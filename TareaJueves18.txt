@@ -1,0 +1,6 @@
+http://www.worldbestlearningcenter.com/index_files/cpp-tutorial-variables_datatypes_exercises.htm
+
+
+Crear cada ejemplo de 5 categorias distintas: compilar, correr y documentar.
+
+
