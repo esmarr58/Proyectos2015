@@ -1,0 +1,35 @@
+
+
+(1)  Instalar 
+
+sudo apt-get install ssmtp
+
+(2) Ejecutar comando
+sudo -e /etc/ssmtp/ssmtp.conf
+
+(3) Editar el archive y agregar lo siguiente:
+
+Root=jrap.udg@gmail.com
+Mailhub=smtp.gmail.com:465
+RewriteDomain=gmail.com
+AuthUser=jrap.udg # me@gmail.com
+AuthPass=fasdfk3ks$#sdf
+FromLineOverride=Yes
+UseTLS=Yes
+
+(4) Instalar
+
+  sudo apt-get install heirloom-mailx
+
+
+(6) Crear archivo para enviar correo
+gedit  filename.ascii
+
+(7) Enviar el correo
+mail < filename.ascii someone@somewhere.com -s "My File"
+
+(8) INstalar
+sudo apt-get install mpack
+
+(9) Probar enviar imagen
+ mpack -s subject picture.png address@example.com
